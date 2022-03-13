@@ -1,0 +1,63 @@
+<?php
+
+use Spatie\LaravelSettings\Migrations\SettingsMigration;
+
+class RemoveLocationSettings extends SettingsMigration
+{
+    public function up(): void
+    {
+        $this->migrator->delete('location.id1');
+        $this->migrator->delete('location.id2');
+        $this->migrator->delete('location.id3');
+        $this->migrator->delete('location.id4');
+        $this->migrator->delete('location.name1');
+        $this->migrator->delete('location.name2');
+        $this->migrator->delete('location.name3');
+        $this->migrator->delete('location.name4');
+        $this->migrator->delete('location.address1');
+        $this->migrator->delete('location.address2');
+        $this->migrator->delete('location.address3');
+        $this->migrator->delete('location.address4');
+        $this->migrator->delete('location.locality1');
+        $this->migrator->delete('location.locality2');
+        $this->migrator->delete('location.locality3');
+        $this->migrator->delete('location.locality4');
+        $this->migrator->delete('location.postalCode1');
+        $this->migrator->delete('location.postalCode2');
+        $this->migrator->delete('location.postalCode3');
+        $this->migrator->delete('location.postalCode4');
+        $this->migrator->delete('location.status1');
+        $this->migrator->delete('location.status2');
+        $this->migrator->delete('location.status3');
+        $this->migrator->delete('location.status4');
+        $this->migrator->delete('location.country1');
+        $this->migrator->delete('location.country2');
+        $this->migrator->delete('location.country3');
+        $this->migrator->delete('location.country4');
+        $this->migrator->delete('location.languageCode1');
+        $this->migrator->delete('location.languageCode2');
+        $this->migrator->delete('location.languageCode3');
+        $this->migrator->delete('location.languageCode4');
+        $this->migrator->delete('location.merchantId1');
+        $this->migrator->delete('location.merchantId2');
+        $this->migrator->delete('location.merchantId3');
+        $this->migrator->delete('location.merchantId4');
+        $this->migrator->delete('location.currency1');
+        $this->migrator->delete('location.currency2');
+        $this->migrator->delete('location.currency3');
+        $this->migrator->delete('location.currency4');
+        $this->migrator->delete('location.phoneNumber1');
+        $this->migrator->delete('location.phoneNumber2');
+        $this->migrator->delete('location.phoneNumber3');
+        $this->migrator->delete('location.phoneNumber4');
+        $this->migrator->delete('location.businessName1');
+        $this->migrator->delete('location.businessName2');
+        $this->migrator->delete('location.businessName3');
+        $this->migrator->delete('location.businessName4');
+        $this->migrator->delete('location.logoUrl1');
+        $this->migrator->delete('location.logoUrl2');
+        $this->migrator->delete('location.logoUrl3');
+        $this->migrator->delete('location.logoUrl4');
+        $this->migrator->delete('location.count');
+    }
+}
